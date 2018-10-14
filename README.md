@@ -1,6 +1,6 @@
 # FeedReader Testing
 To run, download all the files and open index.html in your browser. 
-Or, you can view the site on github pages [here](https://kp-palmer.github.io/Feed-Reader-Testing/);
+Or, you can view the site on github pages [here](https://kp-palmer.github.io/Feed-Reader-Testing/).
 
 
 ## What I learned
@@ -8,7 +8,7 @@ Or, you can view the site on github pages [here](https://kp-palmer.github.io/Fee
 I learned how to use Jasmine to write a number of tests against a pre-existing application. These tested the underlying business logic of the application as well as the event handling and DOM manipulation.
 
 
-# Steps taken to complete this project
+## Steps taken to complete this project
 
 Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric)
 
