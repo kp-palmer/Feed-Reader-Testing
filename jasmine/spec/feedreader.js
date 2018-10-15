@@ -97,7 +97,7 @@ $(function() {
          });
 
          it('has at least one element', function() {
-            expect($('.entry').length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
          });
     
     });
@@ -111,7 +111,7 @@ $(function() {
          * Remember, loadFeed() is asynchronous.
          */
 
-         var list = $('.feed').text();
+         var list = $('.feed').html();
 
          beforeEach(function(done) {
             loadFeed(0, function() {
@@ -120,7 +120,7 @@ $(function() {
          });
      
         it('loaded', function() {
-            expect($('.feed').text()).not.toBe(list);
+            expect($('.feed').html()).not.toBe(list);
         })
      });
 });
